@@ -1081,6 +1081,11 @@
   dependencies:
     prosemirror-inputrules "^1.1.3"
 
+"@tiptap/extension-highlight@^2.0.0-beta.15":
+  version "2.0.0-beta.15"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-highlight/-/extension-highlight-2.0.0-beta.15.tgz#2e2f374defe36ea79a16da5e1d81d7becf248ea4"
+  integrity sha512-rUbVUTLL+Qod4VXKWWfJaqHpET0CzfyfUTMHxeFkXloebL4EM/02NcY1vvNP078+H9w4bZXWIPKfAFqCg6UjoQ==
+
 "@tiptap/extension-history@^2.0.0-beta.15":
   version "2.0.0-beta.15"
   resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-history/-/extension-history-2.0.0-beta.15.tgz#c1275d89fda44a45aaf47e95b21f74d07b45018d"
@@ -1095,6 +1100,11 @@
   integrity sha512-drcPbveAwjj/Ci7glcP6bw5PjKOE6ADHBumwpS3pTLEvWbcF3o6XfRFLykZoGLsforv+/d2JMs7vKnLNbnUHSw==
   dependencies:
     prosemirror-state "^1.3.4"
+
+"@tiptap/extension-image@^2.0.0-beta.15":
+  version "2.0.0-beta.15"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-image/-/extension-image-2.0.0-beta.15.tgz#07bdc23c9804c830a394f78242648dd7783a469e"
+  integrity sha512-iMwQ154RPefOxgqTTHjOA735YWesyjBhYvD9fFxRDctM2vLxEYYYFOENXEBCFLNAr94gfaxefCEdkuNYHl9H7g==
 
 "@tiptap/extension-italic@^2.0.0-beta.15":
   version "2.0.0-beta.15"
@@ -1122,6 +1132,41 @@
   version "2.0.0-beta.17"
   resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-strike/-/extension-strike-2.0.0-beta.17.tgz#2280ea4e8c50189c2729814d2ae484e58c712a36"
   integrity sha512-+WRd0RuCK4+jFKNVN+4rHTa5VMqqGDO2uc+TknkqhFqWp/z96OAGlpHJOwPrnW1fLbpjEBBQIr1vVYSw6KgcZg==
+
+"@tiptap/extension-table-cell@^2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-table-cell/-/extension-table-cell-2.0.0-beta.14.tgz#a164a82ba6e15ba95673a9a9d9cbd68fdaf0362b"
+  integrity sha512-VoZ8SF8urU1/I3XnjDez2pbDO0h4cow+o8Xi6mhkMTXbxr212T674W7lu5DVMJ4Y1NF1eLe9eJ9kGJE43cA0+Q==
+
+"@tiptap/extension-table-header@^2.0.0-beta.16":
+  version "2.0.0-beta.16"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-table-header/-/extension-table-header-2.0.0-beta.16.tgz#7c200d8c64111b6d84f23888752b421b89c2428e"
+  integrity sha512-L/r+ez4G7ZlninS4MwK4tYoVuA6bMMCz7OLvHGBmp24vZm7OA3qyUP4+GGtOXtdhv3aydeBis03gSrrB50aRWw==
+
+"@tiptap/extension-table-row@^2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-table-row/-/extension-table-row-2.0.0-beta.14.tgz#9ec98c73e309ee966b71ccd140019874d179e0c8"
+  integrity sha512-mewdlTqgBCyzeZIZ6F08gfuzwsiYjQ7BvABo2UhDfr0+EN2UvfJj0bT3tGgeZhMxT5Js2DXL+c+ZOVJxWJ9faQ==
+
+"@tiptap/extension-table@^2.0.0-beta.26":
+  version "2.0.0-beta.26"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-table/-/extension-table-2.0.0-beta.26.tgz#3f306e22b9eea530429bc3a21e9285210afee46d"
+  integrity sha512-ShBEJDqQ6EV4bXwfxwlZulOByHz8P6jdpLhZEwQ6y40Fa6HTdYv22l7gQb+fzvfqXElCBx49RuXCCMfxvtUc0w==
+  dependencies:
+    prosemirror-tables "^1.1.1"
+    prosemirror-view "^1.18.11"
+
+"@tiptap/extension-task-item@^2.0.0-beta.17":
+  version "2.0.0-beta.17"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-task-item/-/extension-task-item-2.0.0-beta.17.tgz#e4e010c321b8f9aa5f49847c48e4e3a0695a47a9"
+  integrity sha512-uV5f9rWo9NAZ+oyt/mkhFEZfcngr92pVL2sn291RiT0qw9NRvdIQ6PLH24il9zu+jjeWmh1cJnBuQos+MQqjyg==
+  dependencies:
+    prosemirror-inputrules "^1.1.3"
+
+"@tiptap/extension-task-list@^2.0.0-beta.17":
+  version "2.0.0-beta.17"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/@tiptap/extension-task-list/-/extension-task-list-2.0.0-beta.17.tgz#c0f40325abf1b6a23868e72ab32f9724a8b42a7b"
+  integrity sha512-E17VBqW2lXF59hCQ/3/Kg0hYSDGvVC4B3W8miZwCXt5WTOl98Gk6qAiDXl+2mDKZvnsLty/YrgkD88OlZSIEbQ==
 
 "@tiptap/extension-text@^2.0.0-beta.13":
   version "2.0.0-beta.13"
@@ -2117,6 +2162,13 @@ async-limiter@~1.0.0:
   resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
+async-validator@~1.8.1:
+  version "1.8.5"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/async-validator/-/async-validator-1.8.5.tgz#dc3e08ec1fd0dddb67e60842f02c0cd1cec6d7f0"
+  integrity sha512-tXBM+1m056MAX0E8TL2iCjg8WvSyXu0Zc8LNtYqrVeyoL3+esHRZ4SieE9fKQyyU09uONjnMEjrNBMqT0mbvmA==
+  dependencies:
+    babel-runtime "6.x"
+
 async@^2.6.2:
   version "2.6.3"
   resolved "https://registry.npm.taobao.org/async/download/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
@@ -2169,6 +2221,11 @@ babel-eslint@^10.1.0:
     eslint-visitor-keys "^1.0.0"
     resolve "^1.12.0"
 
+babel-helper-vue-jsx-merge-props@^2.0.0:
+  version "2.0.3"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
+  integrity sha512-gsLiKK7Qrb7zYJNgiXKpXblxbV5ffSwR0f5whkPAaBAR4fhi6bwRZxX9wBlIc5M/v8CCkXUbXZL4N/nSE97cqg==
+
 babel-loader@^8.1.0:
   version "8.2.2"
   resolved "https://registry.npm.taobao.org/babel-loader/download/babel-loader-8.2.2.tgz?cache=0&sync_timestamp=1606424508891&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-loader%2Fdownload%2Fbabel-loader-8.2.2.tgz#9363ce84c10c9a40e6c753748e1441b60c8a0b81"
@@ -2209,6 +2266,14 @@ babel-plugin-polyfill-regenerator@^0.2.2:
   integrity sha1-sxDI1kKsraNIwfo7Pmzg6FG+4Hc=
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.2.2"
+
+babel-runtime@6.x:
+  version "6.26.0"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -3028,6 +3093,11 @@ core-js-compat@^3.14.0, core-js-compat@^3.15.0, core-js-compat@^3.6.5:
     browserslist "^4.16.6"
     semver "7.0.0"
 
+core-js@^2.4.0:
+  version "2.6.12"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
+
 core-js@^3.6.5:
   version "3.15.2"
   resolved "https://registry.nlark.com/core-js/download/core-js-3.15.2.tgz?cache=0&sync_timestamp=1624966012065&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcore-js%2Fdownload%2Fcore-js-3.15.2.tgz#740660d2ff55ef34ce664d7e2455119c5bdd3d61"
@@ -3354,7 +3424,7 @@ deep-is@~0.1.3:
   resolved "https://registry.npm.taobao.org/deep-is/download/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
 
-deepmerge@^1.5.2:
+deepmerge@^1.2.0, deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
@@ -3623,6 +3693,18 @@ electron-to-chromium@^1.3.723:
   version "1.3.790"
   resolved "https://registry.nlark.com/electron-to-chromium/download/electron-to-chromium-1.3.790.tgz#5c569290929d92c8094fa08c79bc9393ca9e94e7"
   integrity sha1-XFaSkJKdksgJT6CMebyTk8qelOc=
+
+element-ui@^2.15.3:
+  version "2.15.3"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/element-ui/-/element-ui-2.15.3.tgz#55108ab82a3bcc646e7b0570871c48ba96300652"
+  integrity sha512-yGcK0AspuC827Nq7GUHct83cywAKIDo+kpp/rtov5ptmK1hZ8FMlt2SKbcozmSabmpdBNroMgqxqXl6IT1zy1A==
+  dependencies:
+    async-validator "~1.8.1"
+    babel-helper-vue-jsx-merge-props "^2.0.0"
+    deepmerge "^1.2.0"
+    normalize-wheel "^1.0.1"
+    resize-observer-polyfill "^1.5.0"
+    throttle-debounce "^1.0.1"
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -4134,6 +4216,11 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "https://registry.npm.taobao.org/extsprintf/download/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
+
+faker@^5.5.3:
+  version "5.5.3"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/faker/-/faker-5.5.3.tgz#c57974ee484431b25205c2c8dc09fda861e51e0e"
+  integrity sha512-wLTv2a28wjUyWkbnX7u/ABZBkUkIF2fCd73V6P2oFqEGEktDfzWx4UxrSqtPRw0xPRAcjeAOIiJWqZm3pP4u3g==
 
 fast-deep-equal@^3.1.1:
   version "3.1.3"
@@ -6152,6 +6239,11 @@ normalize-url@^3.0.0:
   resolved "https://registry.nlark.com/normalize-url/download/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha1-suHE3E98bVd0PfczpPWXjRhlBVk=
 
+normalize-wheel@^1.0.1:
+  version "1.0.1"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/normalize-wheel/-/normalize-wheel-1.0.1.tgz#aec886affdb045070d856447df62ecf86146ec45"
+  integrity sha1-rsiGr/2wRQcNhWRH32Ls+GFG7EU=
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npm.taobao.org/npm-run-path/download/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -7121,7 +7213,7 @@ prosemirror-inputrules@^1.1.3:
     prosemirror-state "^1.0.0"
     prosemirror-transform "^1.0.0"
 
-prosemirror-keymap@^1.0.0, prosemirror-keymap@^1.1.3:
+prosemirror-keymap@^1.0.0, prosemirror-keymap@^1.1.2, prosemirror-keymap@^1.1.3:
   version "1.1.4"
   resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/prosemirror-keymap/-/prosemirror-keymap-1.1.4.tgz#8b481bf8389a5ac40d38dbd67ec3da2c7eac6a6d"
   integrity sha512-Al8cVUOnDFL4gcI5IDlG6xbZ0aOD/i3B17VT+1JbHWDguCgt/lBHVTHUBcKvvbSg6+q/W4Nj1Fu6bwZSca3xjg==
@@ -7129,7 +7221,7 @@ prosemirror-keymap@^1.0.0, prosemirror-keymap@^1.1.3:
     prosemirror-state "^1.0.0"
     w3c-keyname "^2.2.0"
 
-prosemirror-model@^1.0.0, prosemirror-model@^1.14.3:
+prosemirror-model@^1.0.0, prosemirror-model@^1.14.3, prosemirror-model@^1.8.1:
   version "1.14.3"
   resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/prosemirror-model/-/prosemirror-model-1.14.3.tgz#a9c250d3c4023ddf10ecb41a0a7a130e9741d37e"
   integrity sha512-yzZlBaSxfUPIIP6U5Edh5zKxJPZ5f7bwZRhiCuH3UYkWhj+P3d8swHsbuAMOu/iDatDc5J/Qs5Mb3++mZf+CvQ==
@@ -7144,7 +7236,7 @@ prosemirror-schema-list@^1.1.5:
     prosemirror-model "^1.0.0"
     prosemirror-transform "^1.0.0"
 
-prosemirror-state@^1.0.0, prosemirror-state@^1.2.2, prosemirror-state@^1.3.4:
+prosemirror-state@^1.0.0, prosemirror-state@^1.2.2, prosemirror-state@^1.3.1, prosemirror-state@^1.3.4:
   version "1.3.4"
   resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/prosemirror-state/-/prosemirror-state-1.3.4.tgz#4c6b52628216e753fc901c6d2bfd84ce109e8952"
   integrity sha512-Xkkrpd1y/TQ6HKzN3agsQIGRcLckUMA9u3j207L04mt8ToRgpGeyhbVv0HI7omDORIBHjR29b7AwlATFFf2GLA==
@@ -7152,14 +7244,25 @@ prosemirror-state@^1.0.0, prosemirror-state@^1.2.2, prosemirror-state@^1.3.4:
     prosemirror-model "^1.0.0"
     prosemirror-transform "^1.0.0"
 
-prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0, prosemirror-transform@^1.3.2:
+prosemirror-tables@^1.1.1:
+  version "1.1.1"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/prosemirror-tables/-/prosemirror-tables-1.1.1.tgz#ad66300cc49500455cf1243bb129c9e7d883321e"
+  integrity sha512-LmCz4jrlqQZRsYRDzCRYf/pQ5CUcSOyqZlAj5kv67ZWBH1SVLP2U9WJEvQfimWgeRlIz0y0PQVqO1arRm1+woA==
+  dependencies:
+    prosemirror-keymap "^1.1.2"
+    prosemirror-model "^1.8.1"
+    prosemirror-state "^1.3.1"
+    prosemirror-transform "^1.2.1"
+    prosemirror-view "^1.13.3"
+
+prosemirror-transform@^1.0.0, prosemirror-transform@^1.1.0, prosemirror-transform@^1.2.1, prosemirror-transform@^1.3.2:
   version "1.3.2"
   resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/prosemirror-transform/-/prosemirror-transform-1.3.2.tgz#5620ebe7379e6fae4f34ecc881886cb22ce96579"
   integrity sha512-/G6d/u9Mf6Bv3H1XR8VxhpjmUO75LYmnvj+s3ZfZpakU1hnQbsvCEybml1B3f2IWUAAQRFkbO1PnsbFhLZsYsw==
   dependencies:
     prosemirror-model "^1.0.0"
 
-prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.18.11:
+prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, prosemirror-view@^1.18.11:
   version "1.18.11"
   resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/prosemirror-view/-/prosemirror-view-1.18.11.tgz#1a839508e7cb6d500a95512af8079661f9e36034"
   integrity sha512-KXUM8UEV+IK4JYWHNyxkPGDGbxeTEUHQv3POApfyTRN5eMcPFbY4cB0mDJr0LPelVvYPghmZDOCqfCIm9mYHtQ==
@@ -7388,6 +7491,11 @@ regenerate@^1.4.0:
   resolved "https://registry.nlark.com/regenerate/download/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha1-uTRtiCfo9aMve6KWN9OYtpAUhIo=
 
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+  integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
+
 regenerator-runtime@^0.13.4:
   version "0.13.9"
   resolved "https://registry.nlark.com/regenerator-runtime/download/regenerator-runtime-0.13.9.tgz?cache=0&sync_timestamp=1626993001371&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
@@ -7449,6 +7557,11 @@ relateurl@0.2.x:
   version "0.2.7"
   resolved "https://registry.npm.taobao.org/relateurl/download/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
+
+remixicon@^2.5.0:
+  version "2.5.0"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/remixicon/-/remixicon-2.5.0.tgz#b5e245894a1550aa23793f95daceadbf96ad1a41"
+  integrity sha512-q54ra2QutYDZpuSnFjmeagmEiN9IMo56/zz5dDNitzKD23oFRw77cWo4TsrAdmdkPiEn8mxlrTqxnkujDbEGww==
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
@@ -7516,6 +7629,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+resize-observer-polyfill@^1.5.0:
+  version "1.5.1"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -8334,6 +8452,11 @@ thread-loader@^2.1.3:
     loader-runner "^2.3.1"
     loader-utils "^1.1.0"
     neo-async "^2.6.0"
+
+throttle-debounce@^1.0.1:
+  version "1.1.0"
+  resolved "http://nexus.duofee.com/nexus/content/groups/gtnpm/throttle-debounce/-/throttle-debounce-1.1.0.tgz#51853da37be68a155cb6e827b3514a3c422e89cd"
+  integrity sha512-XH8UiPCQcWNuk2LYePibW/4qL97+ZQ1AN3FNXwZRBNPPowo/NRU5fAlDCSNBJIYCKbioZfuYtMhG4quqoJhVzg==
 
 through2@^2.0.0:
   version "2.0.5"

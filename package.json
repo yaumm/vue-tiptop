@@ -8,9 +8,22 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@tiptap/core": "^2.0.0-beta.92",
+    "@tiptap/extension-dropcursor": "^2.0.0-beta.18",
+    "@tiptap/extension-highlight": "^2.0.0-beta.15",
+    "@tiptap/extension-image": "^2.0.0-beta.15",
+    "@tiptap/extension-table": "^2.0.0-beta.26",
+    "@tiptap/extension-table-cell": "^2.0.0-beta.14",
+    "@tiptap/extension-table-header": "^2.0.0-beta.16",
+    "@tiptap/extension-table-row": "^2.0.0-beta.14",
+    "@tiptap/extension-task-item": "^2.0.0-beta.17",
+    "@tiptap/extension-task-list": "^2.0.0-beta.17",
     "@tiptap/starter-kit": "^2.0.0-beta.88",
     "@tiptap/vue-2": "^2.0.0-beta.42",
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.3",
+    "faker": "^5.5.3",
+    "remixicon": "^2.5.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
