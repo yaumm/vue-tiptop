@@ -10,6 +10,7 @@ import Material from './components/Material';
 Vue.config.productionTip = false;
 Vue.use(ElementUI).use(Material);
 
+console.log('fix test bug');
 new Vue({
   router,
   store,
