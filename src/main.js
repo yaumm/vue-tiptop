@@ -12,6 +12,7 @@ Vue.use(ElementUI).use(Material);
 
 console.log('fix test bug');
 console.log('first pr');
+console.log('fix-5');
 new Vue({
   router,
   store,
