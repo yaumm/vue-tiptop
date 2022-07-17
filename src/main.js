@@ -11,6 +11,7 @@ Vue.config.productionTip = false;
 Vue.use(ElementUI).use(Material);
 
 console.log('fix test bug');
+console.log('first pr');
 new Vue({
   router,
   store,
